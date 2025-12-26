@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/vlsi guru/verilog/fulladder using genvare
+vfulladder
+Z1 !s110 1763458900
+!i10b 1
+!s100 oUM6bK4?R^fN704PFPbeH1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ID=A1RaiACOcoT`EzR24o53
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1763458817
+Z5 8n_bitadder.v
+Z6 Fn_bitadder.v
+!i122 6
+L0 1 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1763458900.000000
+!s107 n_bitadder.v|tb_adder.v|
+Z9 !s90 -reportprogress|300|tb_adder.v|
+!i113 1
+Z10 tCvgOpt 0
+vn_bitadder
+R1
+!i10b 1
+!s100 N8IEM2I<CCMDg=kE28dTo0
+R2
+IY1RPM?cMOo;[l]h66b^@g0
+R3
+R0
+R4
+R5
+R6
+!i122 6
+L0 9 15
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 n_bitadder.v|tb_adder.v|
+R9
+!i113 1
+R10
+vtop
+R1
+!i10b 1
+!s100 6?kL7d^2doMXC;mOm2zZi0
+R2
+I^oa^A4>AlL^N=;7De]ZcE1
+R3
+R0
+w1763458895
+8tb_adder.v
+Ftb_adder.v
+!i122 6
+L0 2 17
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
