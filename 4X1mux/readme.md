@@ -1,100 +1,108 @@
-# 4×1 Multiplexer (4×1 MUX) using Verilog
-
-## Overview
-A **Multiplexer (MUX)** is a combinational digital circuit that selects **one input from multiple inputs** and forwards it to a **single output** based on the select lines.  
-This project demonstrates the **design and verification of a 4×1 multiplexer using Verilog HDL**.
+# 🔀 4×1 Multiplexer (4×1 MUX) using Verilog
 
 ---
 
-## Theory
-
-### What is a Multiplexer?
-A multiplexer allows multiple signals to share one output line. The input to be routed is selected using **select lines**.
-
-A **4×1 Multiplexer** consists of:
-- **4 data inputs**: \( I_0, I_1, I_2, I_3 \)
-- **2 select lines**: \( S_1, S_0 \)
-- **1 output**: \( Y \)
+## 📌 Overview
+A **Multiplexer (MUX)** is a **combinational digital circuit** that selects **one input from multiple inputs** and forwards it to a **single output** based on select lines.  
+This project demonstrates the **design and verification of a 4×1 multiplexer using Verilog HDL** 🧠💻.
 
 ---
 
-### Number of Select Lines
+## 📘 Theory
+
+### ❓ What is a Multiplexer?
+A multiplexer allows multiple signals to share one output line.  
+The input to be routed is selected using **select lines**.
+
+### 🧩 4×1 Multiplexer Components
+A **4×1 MUX** consists of:
+- 🔢 **4 Data Inputs**: `I0, I1, I2, I3`
+- 🎚️ **2 Select Lines**: `S1, S0`
+- 📤 **1 Output**: `Y`
+
+---
+
+### 🧮 Number of Select Lines
 The number of select lines required for a multiplexer is:
 
-**Number of Select Lines = log₂(N)**
+> **Select Lines = log₂(N)**
 
-where **N** is the number of input lines.
+Where **N** is the number of inputs.
 
-For a 4×1 multiplexer:
+For a **4×1 MUX**:
 
-**log₂(4) = 2**
+> 🔹 **log₂(4) = 2**
 
-Hence, **two select lines** are required.
----
-
-### Truth Table
-
-| \(S_1\) | \(S_0\) | Output \(Y\) |
-|--------|--------|--------------|
-|   0    |   0    | \(I_0\)      |
-|   0    |   1    | \(I_1\)      |
-|   1    |   0    | \(I_2\)      |
-|   1    |   1    | \(I_3\)      |
+✔️ Hence, **2 select lines** are required.
 
 ---
 
-### Boolean Expression
-The output of a 4×1 multiplexer is given by the Boolean expression:
+### 📊 Truth Table
 
-**Y = I0·S1'·S0' + I1·S1'·S0 + I2·S1·S0' + I3·S1·S0**
-
-This equation ensures that only one input is selected at a time based on the values of the select lines **S1** and **S0**.
----
-
-### Working Principle
-- The select lines \( S_1 \) and \( S_0 \) determine which input is connected to the output.
-- Only **one input** is transferred to the output at any given time.
-- The multiplexer is a **purely combinational circuit** and contains no memory elements.
+| 🔹 S1 | 🔹 S0 | 📤 Output Y |
+|-----|-----|------------|
+| 0 | 0 | I0 |
+| 0 | 1 | I1 |
+| 1 | 0 | I2 |
+| 1 | 1 | I3 |
 
 ---
 
-## Verilog Implementation
-The 4×1 multiplexer is implemented using **behavioral modeling** in Verilog HDL with a `case` statement.  
-A **testbench** is included to verify the design by applying all possible combinations of select lines and inputs.
+### 🧠 Boolean Expression
+The output of a 4×1 multiplexer is given by:
+
+> 🟦 **Y = I0·S1'·S0' + I1·S1'·S0 + I2·S1·S0' + I3·S1·S0**
+
+This equation ensures that **only one input** is selected at a time based on the values of select lines `S1` and `S0`.
 
 ---
 
-## Simulation
-- All select line combinations are tested.
-- The output \( Y \) changes correctly based on the selected input.
-- Functional verification is performed using a Verilog simulator.
+### ⚙️ Working Principle
+- 🎯 Select lines `S1` and `S0` determine the active input  
+- 🔁 Only **one input** is transferred to the output at a time  
+- 🧩 The multiplexer is a **purely combinational circuit** (no memory elements)
 
 ---
 
-## Applications
-- Data routing in digital circuits  
-- ALU input selection  
-- CPU datapath design  
-- Communication systems  
-- FPGA and VLSI projects  
+## 💻 Verilog Implementation
+- Implemented using **behavioral modeling**
+- Uses a `case` statement for input selection
+- 🧪 Includes a **testbench** for verification
+- ✔️ Fully **synthesizable Verilog code**
 
 ---
 
-## Features
-- Simple and beginner-friendly design  
-- Synthesizable Verilog code  
-- Clear and structured implementation  
-- Suitable for academic learning and interview preparation  
+## 🧪 Simulation
+- All select line combinations are tested
+- 📈 Output `Y` changes correctly
+- 🛠️ Functional verification done using a Verilog simulator
 
 ---
 
-## Conclusion
-This project provides a clear understanding of the **4×1 multiplexer**, covering both **theoretical concepts** and **practical Verilog implementation**.  
-It serves as a fundamental building block for advanced digital and VLSI system designs.
+## 🚀 Applications
+- 🔀 Data routing in digital circuits  
+- ➗ ALU input selection  
+- 🧠 CPU datapath design  
+- 📡 Communication systems  
+- 🧩 FPGA and VLSI projects  
 
 ---
 
-## Author
+## ⭐ Features
+- 🎓 Beginner-friendly design  
+- 🧠 Easy-to-understand logic  
+- ⚙️ Synthesizable Verilog code  
+- 📚 Ideal for academic learning and interviews  
+
+---
+
+## ✅ Conclusion
+This project provides a **clear understanding of a 4×1 Multiplexer**, covering both **theoretical concepts** and **practical Verilog implementation**.  
+It serves as a **fundamental building block** for advanced **digital and VLSI system designs** 🚀.
+
+---
+
+## 👤 Author
 **Akash K**  
-Electronics & Communication Engineering  
-Interests: VLSI, Digital Design, Verilog HDL
+🎓 Electronics & Communication Engineering  
+💡 Interests: **VLSI | Digital Design | Verilog HDL**
