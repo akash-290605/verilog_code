@@ -1,0 +1,143 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/vlsi guru/assignment/verilog/Unit  Adders_Mux_encoder_decoder/fulladder
+vfourbitadder
+Z1 !s110 1766593530
+!i10b 1
+!s100 >^@eUk4]ll;ib9a?]oVG:0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDW2W1[Ezf829UDenklIdV1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1762854772
+Z5 8fourbitadder.v
+Z6 Ffourbitadder.v
+!i122 16
+L0 1 11
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1766593530.000000
+Z9 !s107 fourbitadder.v|fourbitadder_tb.v|
+Z10 !s90 -reportprogress|300|fourbitadder_tb.v|
+!i113 1
+Z11 tCvgOpt 0
+vfulladder
+R1
+!i10b 1
+!s100 ml1h?KC=L0XSezWVZEm9d0
+R2
+I5]D]HQTjfgT8O<PaN;zQC3
+R3
+R0
+R4
+R5
+R6
+!i122 16
+L0 13 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vfulladder_behav
+!s110 1762853356
+!i10b 1
+!s100 f7V^c:`OdGP:7@LEf6nKK0
+R2
+IUQ4@adRI3WhMm2]3?FoO`3
+R3
+R0
+w1762852316
+8fulladder_behav.v
+Ffulladder_behav.v
+!i122 11
+L0 1 8
+R7
+r1
+!s85 0
+31
+!s108 1762853356.000000
+!s107 fulladder_gate.v|fulladder_tb.v|fulladder_behav.v|
+!s90 -reportprogress|300|fulladder_behav.v|fulladder_tb.v|
+!i113 1
+R11
+vfulladder_data
+Z12 !s110 1766593626
+!i10b 1
+!s100 ^4Gm=9[m[c7967ZnaLW2Y2
+R2
+ImNSm4O^FjUU`L::kZ`1@23
+R3
+R0
+w1762850662
+8fulladder_data.v
+Ffulladder_data.v
+!i122 17
+L0 1 6
+R7
+r1
+!s85 0
+31
+Z13 !s108 1766593625.000000
+!s107 fulladder_gate.v|fulladder_tb.v|fulladder_data.v|
+Z14 !s90 -reportprogress|300|fulladder_data.v|fulladder_tb.v|
+!i113 1
+R11
+vfulladder_gate
+R12
+!i10b 1
+!s100 ;HYzFaU51`07o`GVgo97A3
+R2
+IcO`h?[bY@1za7CY^FU6T62
+R3
+R0
+w1762851714
+8fulladder_gate.v
+Ffulladder_gate.v
+!i122 17
+L0 1 10
+R7
+r1
+!s85 0
+31
+R13
+Z15 !s107 fulladder_gate.v|fulladder_tb.v|fulladder_data.v|
+R14
+!i113 1
+R11
+vtop
+R12
+!i10b 1
+!s100 c70947mSJHEUn^4RIb4_b3
+R2
+IkhbnfPmJCGUgQP6Zh]9;N3
+R3
+R0
+w1762852219
+8fulladder_tb.v
+Ffulladder_tb.v
+!i122 17
+L0 3 17
+R7
+r1
+!s85 0
+31
+R13
+R15
+R14
+!i113 1
+R11

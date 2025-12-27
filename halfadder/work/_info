@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/vlsi guru/assignment/verilog/Unit  Adders_Mux_encoder_decoder/halfadder
+vhalf
+Z1 !s110 1762849008
+!i10b 1
+!s100 af=:zC<SI0IdOjjoX]U3S0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^K?I>QDYV1JgmlOg@EY@X0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1762848998
+Z5 8halfadder_gate.v
+Z6 Fhalfadder_gate.v
+!i122 12
+L0 14 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1762849007.000000
+!s107 halfadder_tb.v|halfadder_gate.v|
+Z9 !s90 -reportprogress|300|halfadder_gate.v|halfadder_tb.v|
+!i113 1
+Z10 tCvgOpt 0
+vhalfadder
+!s110 1762847787
+!i10b 1
+!s100 ^<dW>E93eez<UhVS5I;Fd0
+R2
+IUP0[XeoBUd:i24WP@S5:J2
+R3
+R0
+w1762840017
+8halfadder.v
+Fhalfadder.v
+!i122 5
+L0 1 6
+R7
+r1
+!s85 0
+31
+!s108 1762847787.000000
+!s107 halfadder_always.v|halfadder_tb.v|halfadder.v|
+!s90 -reportprogress|300|halfadder.v|halfadder_tb.v|
+!i113 1
+R10
+vhalfadder_always
+!s110 1762848791
+!i10b 1
+!s100 ABjVKQEnC0kQPh5QBJcf83
+R2
+I3;VH_?AEdjK18HKU8:[Tk2
+R3
+R0
+w1762847928
+8halfadder_always.v
+Fhalfadder_always.v
+!i122 10
+L0 1 8
+R7
+r1
+!s85 0
+31
+!s108 1762848790.000000
+!s107 halfadder_gate.v|halfadder_tb.v|halfadder_always.v|
+!s90 -reportprogress|300|halfadder_always.v|halfadder_tb.v|
+!i113 1
+R10
+vhalfadder_gate
+!s110 1762849007
+!i10b 1
+!s100 5]8h8JiSoEcdU8=bL_6_U1
+R2
+I9TGTIIKU5H1JknIDEIfXi1
+R3
+R0
+R4
+R5
+R6
+!i122 12
+L0 1 12
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 halfadder_tb.v|halfadder_gate.v|
+R9
+!i113 1
+R10
+vtop
+R1
+!i10b 1
+!s100 9]oTY>lP2=bUK8fmO]UKQ1
+R2
+IOUn`?gZiehEkGW0^GR4ZG3
+R3
+R0
+w1762848245
+8halfadder_tb.v
+Fhalfadder_tb.v
+!i122 12
+L0 4 32
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
