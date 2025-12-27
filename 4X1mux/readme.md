@@ -21,16 +21,19 @@ A **4×1 Multiplexer** consists of:
 ### Number of Select Lines
 The number of select lines required is given by:
 
+The number of select lines required for a multiplexer is given by:
+
 \[
-\text{Select lines} = \log_2(\text{Number of inputs})
+\text{Number of Select Lines} = \log_2(N)
 \]
 
-For 4 inputs:
+where \( N \) is the number of input lines.
+
+For a 4×1 multiplexer:
 
 \[
 \log_2(4) = 2
 \]
-
 Hence, **two select lines** are required.
 
 ---
