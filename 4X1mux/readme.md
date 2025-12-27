@@ -19,23 +19,17 @@ A **4×1 Multiplexer** consists of:
 ---
 
 ### Number of Select Lines
-The number of select lines required is given by:
+The number of select lines required for a multiplexer is:
 
-The number of select lines required for a multiplexer is given by:
+**Number of Select Lines = log₂(N)**
 
-\[
-\text{Number of Select Lines} = \log_2(N)
-\]
-
-where \( N \) is the number of input lines.
+where **N** is the number of input lines.
 
 For a 4×1 multiplexer:
 
-\[
-\log_2(4) = 2
-\]
-Hence, **two select lines** are required.
+**log₂(4) = 2**
 
+Hence, **two select lines** are required.
 ---
 
 ### Truth Table
@@ -50,15 +44,11 @@ Hence, **two select lines** are required.
 ---
 
 ### Boolean Expression
-The output of a 4×1 multiplexer is given by:
+The output of a 4×1 multiplexer is given by the Boolean expression:
 
-\[
-Y = I_0 \cdot \overline{S_1} \cdot \overline{S_0}
-  + I_1 \cdot \overline{S_1} \cdot S_0
-  + I_2 \cdot S_1 \cdot \overline{S_0}
-  + I_3 \cdot S_1 \cdot S_0
-\]
+**Y = I0·S1'·S0' + I1·S1'·S0 + I2·S1·S0' + I3·S1·S0**
 
+This equation ensures that only one input is selected at a time based on the values of the select lines **S1** and **S0**.
 ---
 
 ### Working Principle
