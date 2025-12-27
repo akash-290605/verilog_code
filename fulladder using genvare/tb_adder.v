@@ -5,7 +5,7 @@ reg [N-1:0]a,b;
 reg cin;
 wire [N-1:0] sum,c;
 wire cout;
-n_bitadder nadd (sum,cout,a,b,cin);
+  n_bitadder #(N) nadd (sum,cout,a,b,cin);
 initial begin
 repeat(10)begin
 a=$random();
@@ -16,3 +16,4 @@ $monitor ("time=%0t| a-> %b,b-> %b,cin->%b | sum->%b ,cout-> %b|",$time,a,b,cin,
 end
 end
 endmodule
+
