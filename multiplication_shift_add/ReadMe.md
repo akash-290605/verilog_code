@@ -48,35 +48,14 @@ The multiplication process follows the same logic as manual binary multiplicatio
 
 **Equation (4.1): Product computation**
 
-𝑐=∑128_(𝑖=0)^31▒𝑏 [𝑖]×(𝑎<<𝑖)<img width="700" height="115" alt="image" src="https://github.com/user-attachments/assets/15f3b6a2-5448-4af0-9d11-813106032884" />
+<img width="700" height="115" alt="image" src="https://github.com/user-attachments/assets/15f3b6a2-5448-4af0-9d11-813106032884" />
 
 
 Where:
 
-- \( b[i] \) → i-th bit of the multiplier  
-- \( (a \ll i) \) → multiplicand shifted left by i positions  
-- \( \sum \) → summation of all partial products  
-
-### 4.2 Bit Contribution Rule
-
-**Equation (4.2): Partial product**
-
-\[
-PP_i =
-\begin{cases}
-(a \ll i), & \text{if } b[i]=1 \\
-0, & \text{if } b[i]=0
-\end{cases}
-\]
-
-### 4.3 Accumulation Rule
-
-**Equation (4.3): Final product as sum of partial products**
-
-\[
-c = \sum_{i=0}^{31} PP_i
-\]
-
+-  b[i]   → i-th bit of the multiplier  
+-  a << i → multiplicand shifted left by i positions  
+-  sum    → summation of all partial products  
 ---
 
 ## 5. 🧮 Example 1
@@ -84,7 +63,7 @@ c = \sum_{i=0}^{31} PP_i
 ### 5.1 Given
 
 \[
-a = 3,\quad b = 5
+a = 3, b = 5
 \]
 
 Binary Representation:
@@ -98,16 +77,14 @@ Binary Representation:
 
 | i | b[i] | Shifted Value     | Partial Result |
 |---|------|-------------------|---------------|
-| 0 | 1    | \(3 \ll 0 = 3\)    | 3             |
+| 0 | 1    | \(3 << 0 = 3\)    | 3             |
 | 1 | 0    | 0                 | 3             |
-| 2 | 1    | \(3 \ll 2 = 12\)   | 15            |
+| 2 | 1    | \(3 << 2 = 12\)   | 15            |
 | 3 | 0    | 0                 | 15            |
 
 ### 5.3 Final Result
 
-
 3 * 5 = 15
-
 
 ---
 
@@ -116,7 +93,7 @@ Binary Representation:
 ### 6.1 Given
 
 \[
-a = 4,\quad b = 6
+a = 4,b = 6
 \]
 
 Binary Representation:
@@ -131,15 +108,13 @@ Binary Representation:
 | i | b[i] | Shifted Value     | Partial Result |
 |---|------|-------------------|---------------|
 | 0 | 0    | 0                 | 0             |
-| 1 | 1    | \(4 \ll 1 = 8\)    | 8             |
-| 2 | 1    | \(4 \ll 2 = 16\)   | 24            |
+| 1 | 1    | \(4 << 1 = 8\)    | 8             |
+| 2 | 1    | \(4 << 2 = 16\)   | 24            |
 | 3 | 0    | 0                 | 24            |
 
 ### 6.3 Final Result
 
-\[
-4 \times 6 = 24
-\]
+4 * 6 = 24
 
 ---
 
