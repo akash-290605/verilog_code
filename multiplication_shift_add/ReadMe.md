@@ -234,7 +234,8 @@ Use ILA to confirm that `c` matches the expected product.
 <img width="1582" height="262" alt="image" src="https://github.com/user-attachments/assets/5c67c69c-dcc0-4b3b-a64c-c1e1e64525a6" />
 
 - Output obtained using FPGA
-multiplication_shift_add/UNSIGNED_MULTIPLICATION.mp4
+<img width="1859" height="932" alt="image" src="https://github.com/user-attachments/assets/d7d9cfe5-389e-4d4e-90c5-4fea43a45a3a" />
+
   ---
 
 ### 📝 Notes
