@@ -227,6 +227,15 @@ Set in VIO:
 Use ILA to confirm that `c` matches the expected product.
 
 ---
+### 📌 Output
+
+- Output obtained using simulation
+<img width="241" height="232" alt="image" src="https://github.com/user-attachments/assets/28d2651d-200b-4815-969a-488555ad2a84" />
+<img width="1582" height="262" alt="image" src="https://github.com/user-attachments/assets/5c67c69c-dcc0-4b3b-a64c-c1e1e64525a6" />
+
+- Output obtained using FPGA
+
+  ---
 
 ### 📝 Notes
 
